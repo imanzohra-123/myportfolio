@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
@@ -24,7 +23,7 @@ const Footer = () => {
                  className="text-portfolio-dark hover:text-portfolio-secondary transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:imanzohra7892gmail.com"
+              <a href="mailto:www.imanzohra789@gmail.com"
                  className="text-portfolio-dark hover:text-portfolio-purple transition-colors">
                 <Mail size={20} />
               </a>
@@ -57,7 +56,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail size={18} className="mr-2 text-portfolio-purple" />
-                <span className="text-portfolio-gray">imanzohra7892gmail.com</span>
+                <span className="text-portfolio-gray">www.imanzohra789@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone size={18} className="mr-2 text-portfolio-teal" />

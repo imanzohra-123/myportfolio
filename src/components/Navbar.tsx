@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -32,9 +31,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Personal Profile', path: '/profile' },
+    { name: 'Profile', path: '/profile' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Career Goals', path: '/career-goals' },
+    { name: 'Career', path: '/career-goals' },
     { name: 'Projects', path: '/projects' },
     { name: 'Skills', path: '/skills' },
     { name: 'Contact', path: '/contact' },
@@ -52,13 +51,13 @@ const Navbar = () => {
     >
       <div className="container-custom">
         <nav className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold">
-            <span className="text-portfolio-primary">Iman</span>
+          <Link to="/" className="text-2xl font-bold flex items-center">
+            <span className="text-portfolio-primary mr-1">Iman</span>
             <span className="text-portfolio-secondary">Zohra</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
