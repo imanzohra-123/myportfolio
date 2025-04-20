@@ -75,8 +75,15 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
         heading: ['Poppins', 'sans-serif'],
+        display: ['Playfair Display', 'serif'],
+        body: ['Roboto', 'sans-serif'],
+      },
+      fontSize: {
+        'heading-xl': ['3.5rem', { lineHeight: '1.1', fontWeight: '700' }],
+        'heading-lg': ['2.5rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'heading-md': ['2rem', { lineHeight: '1.3', fontWeight: '500' }],
       },
       borderRadius: {
         lg: 'var(--radius)',

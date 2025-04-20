@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
@@ -7,7 +6,7 @@ const Index = () => {
     <main>
       {/* Hero Section */}
       <section 
-        className="relative min-h-screen flex items-center"
+        className="relative min-h-screen flex items-center font-body"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
           backgroundSize: "cover",
@@ -16,10 +15,10 @@ const Index = () => {
       >
         <div className="container-custom relative z-10 text-white">
           <div className="max-w-3xl">
-            <h1 className="heading-xl mb-6">
+            <h1 className="text-heading-xl mb-6 font-display">
               Hi, I'm <span className="text-gradient">Iman Zohra</span>
             </h1>
-            <p className="text-lg md:text-xl mb-8 text-gray-200">
+            <p className="text-xl md:text-2xl mb-8 text-gray-200 font-body">
               Software Engineer passionate about machine learning and building innovative solutions to real-world problems.
             </p>
             <div className="flex flex-wrap gap-4">
