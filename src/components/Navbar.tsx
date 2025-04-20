@@ -47,13 +47,14 @@ const Navbar = () => {
   return (
     <header 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        scrolled ? 'bg-white/95 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-5'
       }`}
     >
       <div className="container-custom">
         <nav className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold text-portfolio-primary">
-            Iman<span className="text-portfolio-dark">Zohra</span>
+          <Link to="/" className="text-2xl font-bold">
+            <span className="text-portfolio-primary">Iman</span>
+            <span className="text-portfolio-secondary">Zohra</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -62,17 +63,18 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`nav-link ${isActive(link.path) ? 'active' : ''}`}
+                className={`nav-link relative group ${isActive(link.path) ? 'text-portfolio-primary' : 'text-portfolio-dark'}`}
                 onClick={closeMenu}
               >
                 {link.name}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-portfolio-primary transition-all group-hover:w-full"></span>
               </Link>
             ))}
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700 hover:text-portfolio-primary"
+            className="md:hidden text-portfolio-dark hover:text-portfolio-primary transition-colors"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -104,13 +106,15 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white py-4 shadow-lg rounded-lg mt-4 absolute left-4 right-4 z-50">
+          <div className="md:hidden bg-white/95 backdrop-blur-sm py-4 shadow-lg rounded-lg mt-4 absolute left-4 right-4 z-50">
             <div className="flex flex-col space-y-4 px-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className={`nav-link ${isActive(link.path) ? 'active' : ''}`}
+                  className={`nav-link ${
+                    isActive(link.path) ? 'text-portfolio-primary' : 'text-portfolio-dark'
+                  } hover:text-portfolio-primary transition-colors`}
                   onClick={closeMenu}
                 >
                   {link.name}
