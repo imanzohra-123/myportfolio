@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -72,8 +71,8 @@ const Contact = () => {
                   <Mail className="text-portfolio-primary mt-1 mr-4" size={22} />
                   <div>
                     <h3 className="text-lg font-medium mb-1">Email</h3>
-                    <a href="mailto:imanzohra7892gmail.com" className="text-gray-600 hover:text-portfolio-primary transition-colors">
-                      imanzohra7892gmail.com
+                    <a href="mailto:www.imanzohra789@gmail.com" className="text-gray-600 hover:text-portfolio-primary transition-colors">
+                      www.imanzohra789@gmail.com
                     </a>
                   </div>
                 </div>
