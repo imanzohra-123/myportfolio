@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -101,7 +102,7 @@ const Contact = () => {
                 <h3 className="text-lg font-medium mb-4">Connect With Me</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/imanzohra-123" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-portfolio-primary hover:text-white transition-colors"
@@ -111,7 +112,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/iman-zohra-4b122a31a/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gray-200 p-3 rounded-full text-gray-700 hover:bg-portfolio-primary hover:text-white transition-colors"

@@ -33,7 +33,7 @@ const PersonalProfile = () => {
                   <h3 className="text-lg font-semibold mb-4">Connect With Me</h3>
                   <div className="space-y-4">
                     <a 
-                      href="https://github.com" 
+                      href="https://github.com/imanzohra-123" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-center text-gray-700 hover:text-portfolio-primary transition-colors"
@@ -42,7 +42,7 @@ const PersonalProfile = () => {
                       <span>GitHub</span>
                     </a>
                     <a 
-                      href="https://linkedin.com" 
+                      href="https://www.linkedin.com/in/iman-zohra-4b122a31a/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-center text-gray-700 hover:text-portfolio-primary transition-colors"
@@ -51,7 +51,7 @@ const PersonalProfile = () => {
                       <span>LinkedIn</span>
                     </a>
                     <a 
-                      href="mailto:imanzohra7892gmail.com"
+                      href="mailto:www.imanzohra789@gmail.com"
                       className="flex items-center text-gray-700 hover:text-portfolio-primary transition-colors"
                     >
                       <Mail size={20} className="mr-3" />

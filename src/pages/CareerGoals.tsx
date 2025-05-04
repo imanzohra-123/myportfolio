@@ -83,7 +83,7 @@ const CareerGoals = () => {
             <p className="text-xl italic mb-4">
               "The intersection of technology and human needs is where true innovation happens. I'm committed to building solutions that make a positive impact on how we live, work, and interact with the world around us."
             </p>
-            <p className="font-medium">— Iman Zohra</p>
+            <p className="font-medium">— </p>
           </div>
 
           {/* Timeline */}

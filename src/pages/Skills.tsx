@@ -1,4 +1,3 @@
-
 import { Star, StarHalf } from "lucide-react";
 
 const Skills = () => {
@@ -19,9 +18,6 @@ const Skills = () => {
     { name: "Problem Solving", rating: 4.5 },
     { name: "Communication", rating: 4 },
     { name: "Teamwork", rating: 4 },
-    { name: "Time Management", rating: 3.5 },
-    { name: "Adaptability", rating: 4 },
-    { name: "Critical Thinking", rating: 4.5 },
   ];
 
   // Interests data

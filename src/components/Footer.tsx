@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
@@ -15,11 +16,11 @@ const Footer = () => {
               Software Engineer with a passion for machine learning and solving real-world problems.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/imanzohra-123" target="_blank" rel="noopener noreferrer" 
                  className="text-portfolio-dark hover:text-portfolio-primary transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/iman-zohra-4b122a31a/" target="_blank" rel="noopener noreferrer"
                  className="text-portfolio-dark hover:text-portfolio-secondary transition-colors">
                 <Linkedin size={20} />
               </a>
