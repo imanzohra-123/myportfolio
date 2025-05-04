@@ -18,17 +18,9 @@ const PersonalProfile = () => {
       <section className="section-padding">
         <div className="container-custom">
           <div className="grid md:grid-cols-3 gap-12">
-            {/* Left Column - Image and Social Links */}
+            {/* Left Column - Social Links */}
             <div className="md:col-span-1">
               <div className="sticky top-24">
-                <div className="rounded-lg overflow-hidden shadow-md mb-6">
-                  <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" 
-                    alt="Iman Zohra" 
-                    className="w-full h-auto"
-                  />
-                </div>
-
                 <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
                   <h3 className="text-lg font-semibold mb-4">Connect With Me</h3>
                   <div className="space-y-4">

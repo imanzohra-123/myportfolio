@@ -7,10 +7,7 @@ const Skills = () => {
     { name: "C++", rating: 4.5 },
     { name: "Python", rating: 4 },
     { name: "Figma", rating: 3.5 },
-    { name: "Data Analysis", rating: 4 },
-    { name: "TensorFlow", rating: 3.5 },
     { name: "Data Scraping", rating: 4 },
-    { name: "NumPy", rating: 3.5 },
     { name: "Web Development", rating: 3 },
   ];
 
